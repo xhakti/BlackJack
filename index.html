@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack</title>
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="images/blackjack.png">
+</head>
+<body>
+
+
+    <div class="box"> 
+
+        <h1><span id="blackjackTitle">Blackjack</span>  </h1>
+        <button id="info-btn" onclick="howtoplay()" > ? </button>
+        
+
+        <p class="display-total">DEALER: <span class="round"  id="dealer-el" >0</span> </p>
+        <p id="dealercards-el">Cards: </p>
+        <button onclick="startGame()">NEW GAME</button>
+        <button onclick="stay()">STAY</button>
+        <button onclick="newCard()">HIT</button>
+        <p id="message-el"></p>
+        <p class="display-total">PLAYER: <span class="round" id="sum-el">0</span></p>
+        <p id="cards-el">Cards:</p>
+        
+        
+    
+    
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
