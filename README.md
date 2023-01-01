@@ -1,6 +1,8 @@
 # BlackJack
 A blackjack game build using javascript. 
 
+[Click here to play](shaktiiii.github.io/BlackJack/)
+
 ### How to play.
 - Click 'NEW GAME' to start new game  
 It will give you and dealer 2 cards and one of the dealers cards will be hidden.
